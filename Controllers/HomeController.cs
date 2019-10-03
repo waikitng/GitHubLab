@@ -21,6 +21,12 @@ namespace GitHubLab.Controllers
             return View();
         }
 
+        public IActionResult Waikit()
+        {
+            ViewData["Message"] = "waikit.";
+            return View();
+        }
+
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
