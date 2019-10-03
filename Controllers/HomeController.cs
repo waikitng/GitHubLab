@@ -15,6 +15,12 @@ namespace GitHubLab.Controllers
             return View();
         }
 
+        public IActionResult Denis()
+        {
+            ViewData["Message"] = "denise.";
+            return View();
+        }
+
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
